@@ -31,7 +31,7 @@ function App() {
             <Route path="/profiles" components={Profiles} />
             <Route path="/marquee/:text" components={Marquee} />
             <Route path="/profile/:id" components={Profiles} />
-            <Route path="/" components={Dashboard} />
+            <Route exact path="/" components={Dashboard} />
           </div>
         </div>
       </div>
