@@ -24,19 +24,9 @@ function SideNav() {
           <Link to="/profiles"><i className="fa fa-fw fa-dashboard" />
             Profiles
           </Link>
-          <Link to="/marquee/:text"><i className="fa fa-fw fa-dashboard" />
+          <Link to="/marquee/iloveroutes"><i className="fa fa-fw fa-dashboard" />
             Marquee
           </Link>
-        </li>
-        <li>
-          <a href="charts.html">
-            <i className="fa fa-fw fa-bar-chart-o" /> Charts
-          </a>
-        </li>
-        <li>
-          <a href="tables.html">
-            <i className="fa fa-fw fa-table" /> Tables
-          </a>
         </li>
       </ul>
     </div>);

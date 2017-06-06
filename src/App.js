@@ -10,7 +10,6 @@ import Marquee from "./components/Marquee";
 import Dashboard from "./components/Dashboard";
 import {
   BrowserRouter,
-  Switch,
   Route
 } from "react-router-dom";
 
@@ -39,6 +38,4 @@ function App() {
 
   );
 }
-
-
 export default App;
