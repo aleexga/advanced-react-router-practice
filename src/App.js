@@ -24,13 +24,13 @@ function App() {
           </nav>
           <div style={{backgroundColor: "white"}}>
             <Route path="/charts" component={Charts} />
-            <Route path="/tables" components={Tables} />
-            <Route path="/settings" components={Settings} />
-            <Route path="/wall" components={Wall} />
-            <Route path="/profiles" components={Profiles} />
-            <Route path="/marquee/:text" components={Marquee} />
-            <Route path="/profile/:id" components={Profiles} />
-            <Route exact path="/" components={Dashboard} />
+            <Route path="/tables" component={Tables} />
+            <Route path="/settings" component={Settings} />
+            <Route path="/wall" component={Wall} />
+            <Route path="/profiles" component={Profiles} />
+            <Route path="/marquee/:text" component={Marquee} />
+            <Route path="/profile/:id" component={Profiles} />
+            <Route exact path="/" component={Dashboard} />
           </div>
         </div>
       </div>
